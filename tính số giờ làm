@@ -1,0 +1,15 @@
+# include <stdio.h>
+# include <conio.h>
+# include <math.h>
+main(){
+int l,h;
+float tongluong, giodu;
+printf("Nhap vao so gio lam:");
+scanf("%d",&h;);
+printf("Nhap so luong:");
+scanf("%d",&l);
+if(h<40)
+printf("So tien luong la:%d\n\n",h*l);
+else
+printf("So tien luong la:%3f\n\n:,(1.5*(h-40)+40)*l);
+}
